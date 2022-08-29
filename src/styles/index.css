@@ -1,3 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: whitesmoke;
+}
+div.container {
+    display: grid;
+    place-items: center;
+}
+
+.semaforo {
+    width: 100px;
+    height: 230px;
+    place-items: center;
+    display: grid;
+    background-color: #db7b2b;
+    border-radius: 20px;
+    border: black solid;
+
+}
+.light-circle {
+    display: block;
+    width: 60px ;
+    height: 60px ;
+    border-radius: 50% ;
+    background-color: black ;
+    position: relative;
+}
+
+.stand {
+    width: 8px;
+    height: 150px;
+    background-color: black;
+}
+
+.floor {
+    width: 200px;
+    height: 5px;
+    background-color: black ;
+}
+
+#red {
+    background-color: #cc3232;
+}
+
+#yellow {
+    background-color: #e7b416;
+}
+#green {
+    background-color: #2dc937;
+}
+
+.red {
+    background-color : #b59797;
+    border: black solid;
+}
+.yellow {
+    background-color: #b5b397;
+    border: black solid;
+}
+.green {
+    background-color:#9fb597;
+    border: black solid;
+}
+
 
 /* 
 
