@@ -40,8 +40,8 @@ div.container {
     background-color: black;
 }
 
-.floor {
-    width: 200px;
+.base {
+    width: 100px;
     height: 5px;
     background-color: black ;
 }

@@ -43,7 +43,7 @@ const Home = () => {
       </div>
       <div className="stand">
       </div>
-      <div className="floor"></div>
+      <div className="base"></div>
        
     </div>
     </>
